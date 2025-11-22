@@ -112,7 +112,7 @@ def executar_analise_monte_carlo(dados_cenario, n_simulacoes=1000):
     plt.grid(axis='y', alpha=0.3)
     
     print("Gerando gráfico de Monte Carlo...")
-    plt.show() # Salve esta imagem
+    plt.show() # Salva esta imagem
 
 
 def main():
