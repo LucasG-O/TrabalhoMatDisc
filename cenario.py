@@ -1,4 +1,4 @@
-# ARQUIVO: config.py
+# ARQUIVO: cenario.py
 import networkx as nx
 import random
 
@@ -58,7 +58,7 @@ def criar_cenario_complexo(linhas=4, colunas=5):
                        distancia=dist, tempo_base=tempo, tempo_atual=tempo, 
                        risco_base=risco, risco_atual=risco)
             
-    # Define layout específico para grade (Kamada Kawai fica melhor visualmente)
+    # Define layout específico para grade 
     pos = nx.kamada_kawai_layout(G)
     
     # Define problema no meio da cidade (ex: aresta entre nó 7 e 8)
