@@ -6,7 +6,7 @@ def executar_simulacao_visual(titulo, dados_cenario):
     """
     Executa uma rodada única e mostra o mapa (Gráfico de Rede).
     """
-    # Desempacota os dados que vieram do config
+    # Desempacota os dados que vieram do cenario
     G, pos, aresta_caos, start, end = dados_cenario
     
     print(f"\n=== RODANDO VISUALIZAÇÃO: {titulo} ===")
@@ -112,7 +112,7 @@ def executar_analise_monte_carlo(dados_cenario, n_simulacoes=1000):
     plt.grid(axis='y', alpha=0.3)
     
     print("Gerando gráfico de Monte Carlo...")
-    plt.show() # Salve esta imagem para o seu TCC!
+    plt.show() # Salve esta imagem
 
 
 def main():
