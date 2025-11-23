@@ -1,4 +1,4 @@
-# Simulação de Rotas Inteligentes em Grafos Dinâmicos 🚦
+# Simulação de Rotas Inteligentes em Grafos Dinâmicos 
 
 Este projeto implementa uma simulação computacional em Python para otimização de rotas urbanas utilizando a **Teoria dos Grafos**. O sistema utiliza uma função de custo multiobjetivo (ponderando Tempo, Distância e Risco) e realiza análises de robustez via **Simulação de Monte Carlo**.
 
