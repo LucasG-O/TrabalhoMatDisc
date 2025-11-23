@@ -4,7 +4,7 @@ Este projeto implementa uma simulação computacional em Python para otimizaçã
 
 > Trabalho desenvolvido para a disciplina de Matemática Discreta da FGV.
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto segue uma arquitetura modular baseada no princípio de separação de responsabilidades:
 
@@ -12,19 +12,19 @@ O projeto segue uma arquitetura modular baseada no princípio de separação de 
 - `funcoes.py`: **Lógica (Core).** Contém o algoritmo de Dijkstra, cálculos de custo e geração de gráficos.
 - `cenario.py`: **Dados.** Define a topologia dos grafos, os parâmetros de simulação e os pesos dos perfis.
 
-## 🚀 Resultados
+## Resultados
 
 O sistema gera automaticamente:
 1. Visualização de rotas em grafo didático.
 2. Comparação de rotas em malha complexa (Grid 4x5).
 3. Histograma estatístico de variância de tempo (Monte Carlo).
 
-## 🛠️ Tecnologias
+## Tecnologias
 - Python 3.9+
 - NetworkX
 - Matplotlib
 - Pandas
 - NumPy
 
-## 👤 Autor
+## Autor
 **Lucas Oliveira** FGV - Escola de Matemática Aplicada
